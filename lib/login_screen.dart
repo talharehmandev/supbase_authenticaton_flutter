@@ -11,11 +11,10 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  // final _emailController = TextEditingController(text: "talhaobasikhan9@gmail.com");
-  // final _passwordController = TextEditingController(text: "12345678");
-
+ 
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  
   bool _loading = false;
   String? _errorMessage;
 
